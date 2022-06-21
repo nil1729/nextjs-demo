@@ -1,0 +1,43 @@
+.form {
+	background-color: white;
+	padding: 15px;
+	width: 75%;
+	margin: auto;
+	margin-bottom: 25px;
+	border-radius: 7px;
+}
+
+.controls {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.control {
+	display: flex;
+	justify-content: center;
+	width: 40%;
+	padding: 0 10px;
+	align-items: center;
+}
+
+.btn_div {
+	width: 20%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.control label {
+	font-weight: bold;
+	font-size: 18px;
+	margin-right: 10px;
+}
+
+.control select {
+	width: 100%;
+	font-size: 16px;
+	padding: 4px 5px;
+	border-radius: 3px;
+	background-color: transparent;
+}

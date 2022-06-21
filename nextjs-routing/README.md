@@ -31,3 +31,16 @@
 | Intuitive System                                                          | Straightforward but includes new components + concepts                           |
 | File + folder structure (in `pages/` folder) influences routes            | File + folder setup does not matter at all                                       |
 | Navigation works with `<Link>` **(next/link)** component and imperatively | Navigation works with `<Link>` **(react-router-dom)** component and imperatively |
+
+### Project Routes
+
+```
+/pages
+│   index.js -> Main Stating Page (Show featured Events)
+│
+└───/events
+│   │   index.js -> Events Page (Show all Events)
+│   │   [event_id].js -> Event Detail Page (show selected Event)
+│   │   [...slug].js -> Filtered Events Page (show filtered Events)
+
+```
