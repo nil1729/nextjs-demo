@@ -1,0 +1,30 @@
+.logistics {
+	background-color: rgb(29, 28, 28);
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	padding: 20px;
+	width: 600px;
+	margin: auto;
+	border-radius: 7px;
+	margin-bottom: 25px;
+}
+
+.image_div {
+	border-radius: 50%;
+	overflow: hidden;
+	width: 35%;
+	height: 200px;
+	border: 4px solid white;
+}
+
+.image_div img {
+	height: 100%;
+	width: 100%;
+}
+
+.logistics_list {
+	width: 60%;
+	list-style: none;
+	margin-left: 20px;
+}

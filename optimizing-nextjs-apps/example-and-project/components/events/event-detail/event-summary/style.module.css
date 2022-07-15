@@ -1,0 +1,9 @@
+.summary {
+	text-align: center;
+	margin-bottom: 30px;
+}
+
+.summary h1 {
+	font-size: 50px;
+	font-weight: bolder;
+}
