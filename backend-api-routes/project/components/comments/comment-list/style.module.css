@@ -1,0 +1,24 @@
+.comment_list_container {
+	width: 650px;
+	margin: auto;
+	margin-bottom: 30px;
+}
+.comment_list {
+	list-style: none;
+}
+
+.comment_list_item {
+	border-bottom: 1px solid rgb(121, 111, 111);
+	padding: 7px 0;
+	margin-bottom: 15px;
+	color: rgb(62, 62, 62);
+}
+
+.comment_list_item p:first-child {
+	margin-bottom: 5px;
+}
+.comment_list_item p:last-child {
+	font-size: 15px;
+	text-align: right;
+	font-style: italic;
+}
