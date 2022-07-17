@@ -1,0 +1,55 @@
+.my_form {
+	margin: 50px auto;
+	background-color: rgba(147, 176, 201, 0.87);
+	border-radius: 5px;
+	width: 650px;
+	padding: 15px;
+}
+
+.form_control {
+	display: flex;
+	flex-direction: column;
+	width: 48%;
+}
+.textarea_div {
+	display: flex;
+	flex-direction: column;
+	width: 100%;
+}
+
+.my_row {
+	display: flex;
+	justify-content: space-between;
+	width: 100%;
+	margin-bottom: 10px;
+}
+
+.textarea_div label,
+.form_control label {
+	font-size: 14px;
+	color: black;
+	margin-bottom: 5px;
+}
+
+.textarea_div textarea,
+.form_control input {
+	outline: none;
+	border: none;
+	border-radius: 3px;
+	padding: 6px 10px;
+	font-size: 16px;
+	width: 100%;
+	max-width: 100%;
+	min-width: 100%;
+}
+.textarea_div textarea {
+	min-height: 115px;
+	max-height: 115px;
+}
+
+.my_btn_div {
+	margin-top: 10px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
