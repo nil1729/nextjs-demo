@@ -1,0 +1,19 @@
+.show_btn_div {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin-top: 50px;
+}
+
+.show_btn_div button {
+	outline: none;
+	border: 1px solid rgba(67, 145, 115, 0.87);
+	background: transparent;
+	padding: 8px 13px;
+	border-radius: 5px;
+	color: rgba(67, 145, 115, 0.87);
+	display: flex;
+	transition: all 0.3s;
+	font-size: 16px;
+	cursor: pointer;
+}

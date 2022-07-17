@@ -1,0 +1,26 @@
+.newsletter_container {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+	margin-bottom: 50px;
+}
+
+.header_title {
+	font-weight: 900;
+	margin-bottom: 20px;
+	font-size: 25px;
+}
+
+.my_input {
+	outline: none;
+	border: 1px solid grey;
+	padding: 5px 10px;
+	width: 300px;
+	border-radius: 3px;
+	font-size: 16px;
+}
+
+.my_form {
+	display: flex;
+}
