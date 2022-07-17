@@ -1,0 +1,39 @@
+.my_form {
+	margin: 50px auto;
+	background-color: rgba(147, 176, 201, 0.87);
+	border-radius: 5px;
+	width: 450px;
+	padding: 20px;
+}
+
+.form_control {
+	display: flex;
+	flex-direction: column;
+	width: 100%;
+	margin-bottom: 15px;
+}
+
+.form_control label {
+	font-size: 16px;
+	color: black;
+	margin-bottom: 5px;
+	text-align: center;
+}
+
+.form_control input {
+	outline: none;
+	border: none;
+	border-radius: 3px;
+	padding: 6px 10px;
+	font-size: 16px;
+	width: 100%;
+	max-width: 100%;
+	min-width: 100%;
+}
+
+.my_btn_div {
+	margin-top: 20px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
